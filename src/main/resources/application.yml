@@ -2,4 +2,4 @@ spring:
   application:
     name: springboot-mybatis-plus-framework
   profiles:
-    active: dev
+    active: local
