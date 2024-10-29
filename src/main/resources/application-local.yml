@@ -26,12 +26,12 @@ spring:
           username: root
           password: 'Abc@1234'
         # 从库数据源
-#        clickhouse:
-#          lazy: true
-#          driverClassName: ru.yandex.clickhouse.ClickHouseDriver
-#          url: jdbc:clickhouse://localhost:8123/idc_resource?useSSL=false&allowMultiQueries=true&socket_timeout=600000
-#          username: default
-#          password: Abc@1234
+        clickhouse:
+          lazy: true
+          driverClassName: ru.yandex.clickhouse.ClickHouseDriver
+          url: jdbc:clickhouse://localhost:8123/idc_resource?useSSL=false&allowMultiQueries=true&socket_timeout=600000
+          username: default
+          password: Abc@1234
       hikari:
         # 最大连接池数量
         maxPoolSize: 5
