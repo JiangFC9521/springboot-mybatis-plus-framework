@@ -11,6 +11,12 @@ import java.io.IOException;
 /**
  * @author jiang
  * @since 2024-10-29
+ * <p>
+ * 应用场景
+ * 1.过滤敏感词汇（防止sql注入）
+ * 2.设置字符编码
+ * 3.URL级别的权限访问控制
+ * 4.压缩响应信息
  */
 @WebFilter(urlPatterns = {"/hello/*"}, filterName = "demoFilter")
 @Slf4j
