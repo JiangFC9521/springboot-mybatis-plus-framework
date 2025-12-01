@@ -23,7 +23,7 @@ public class DemoHandler {
 
     private final DemoThreadService demoThreadService;
 
-    @Scheduled(fixedDelayString = "5000")
+//    @Scheduled(fixedDelayString = "5000")
     void demo() throws ExecutionException, InterruptedException {
 
         log.info("线程测试开始");
