@@ -76,7 +76,7 @@
         <dependency>
             <groupId>com.corundumstudio.socketio</groupId>
             <artifactId>netty-socketio</artifactId>
-            <version>1.7.22</version> <!-- 注意检查最新版本 -->
+            <version>1.7.19</version> <!-- 注意检查最新版本 -->
         </dependency>
 
 

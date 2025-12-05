@@ -1,4 +1,4 @@
-package com.example.springboot.mybatisplus.framework.config;
+package com.example.springboot.mybatisplus.framework.webSocket.handler;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;

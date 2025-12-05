@@ -1,5 +1,6 @@
-package com.example.springboot.mybatisplus.framework.config;
+package com.example.springboot.mybatisplus.framework.webSocket.config;
 
+import com.example.springboot.mybatisplus.framework.webSocket.handler.MyWebSocketHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;

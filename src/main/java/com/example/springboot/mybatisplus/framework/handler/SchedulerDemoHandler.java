@@ -3,8 +3,6 @@ package com.example.springboot.mybatisplus.framework.handler;
 import com.example.springboot.mybatisplus.framework.service.DemoThreadService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.scheduling.annotation.Async;
-import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -19,7 +17,7 @@ import java.util.concurrent.ExecutionException;
 @Slf4j
 @Component
 @RequiredArgsConstructor
-public class DemoHandler {
+public class SchedulerDemoHandler {
 
     private final DemoThreadService demoThreadService;
 
